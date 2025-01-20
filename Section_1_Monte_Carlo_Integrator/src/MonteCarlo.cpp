@@ -1,6 +1,4 @@
 #include <iostream>
-#include <random>
-#include <functional>
 
 bool InsideUnitSphere(double x, double y, double z)
 {
