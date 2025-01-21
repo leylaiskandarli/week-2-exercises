@@ -11,6 +11,8 @@ Sphere::Sphere(double r)
     setRadius(r);
 }
 
+Sphere::~Sphere() {}
+
 void Sphere::setRadius(double r)
 {
     radius = r;

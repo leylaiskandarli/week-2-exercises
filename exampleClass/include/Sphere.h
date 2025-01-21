@@ -16,7 +16,7 @@ class Sphere
 
     // Destructor: we actually don't need to define the destructor if it is empty like this
     // as C++ will create a default destructor for us.
-    ~Sphere(){}
+    ~Sphere();
 
     // Public variable - this can be read and changed by anyone. 
     std::string colour;
@@ -43,3 +43,8 @@ class Sphere
     double surfaceArea;
     double volume;
 };
+
+int main()
+{
+    Sphere *s = new Sphere(5);
+}
